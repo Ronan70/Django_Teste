@@ -1,0 +1,11 @@
+GET http://localhost:8000/alunos/
+###
+
+PUT http://localhost:8000/alunos/2/ 
+content-type: application/json
+
+{
+    "id": 2,
+    "nome": "teste 2 ATUALIZADO",
+    "rg": "123456788"
+}
